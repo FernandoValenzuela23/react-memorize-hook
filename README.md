@@ -1,6 +1,8 @@
-## UseMemorize HOOK
+## Memo HOOK
 
+Uso de React.Memo para evitar renderizar nuevamente componentes hijos cuando haya cambios en el padre que no implican un cambio de estado en el hijo, util especialmente cuando se hace llamadas api que innecesariamente se consultan por renderizaciones mal manejadas
 
+useCallback: Permite memorizar funcione
 
 
 
